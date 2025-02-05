@@ -17,6 +17,17 @@ export default function HomePage() {
             {t("companyInfoTitle")}
           </h2>
           <p className="text-lg">{t("companyInfoBody")}</p>
+          <p className="text-lg mt-2">
+            Visit our website at{" "}
+            <a
+              href="https://prismaservices.it"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline"
+            >
+              PRISMASERVICES.IT
+            </a>
+          </p>
         </div>
       </section>
 

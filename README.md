@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TransLLAMA
 
-## Getting Started
+**TransLLAMA** is a research project developed by PRISMA S.R.L. that leverages local large language models to provide precise, context-aware translations. The project integrates Next.js, Tailwind CSS, and the Ollama API, using advanced AI (ChatGPT o3-mini-high) to deliver high-quality translations.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+TransLLAMA aims to:
+- Provide translations that are formatted exclusively within `<translation>...</translation>` tags.
+- Ensure grammatical correctness and proper vocabulary usage in the target language.
+- Separate AI-generated reasoning (if present) from the main translation, displaying it in an accordion-style component.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **User-friendly Interface:** Inspired by popular translation platforms, featuring dynamic model and language selection.
+- **Multilingual Support:** All texts and labels are managed through an internationalization system with support for Italian and English.
+- **Advanced UI/UX:** Utilizes [lucide-react](https://lucide.dev/) icons and custom styling with Tailwind CSS for a modern and intuitive user experience.
+- **Research Focus:** TransLLAMA is a research initiative and not a commercial product.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- **Frontend:** Next.js (App Router & API), Tailwind CSS, lucide-react
+- **Backend:** Node.js, integration with the Ollama API for local large language models
+- **AI Engine:** ChatGPT o3-mini-high (the model behind TransLLAMA)
 
-To learn more about Next.js, take a look at the following resources:
+## About PRISMA S.R.L.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[PRISMA S.R.L.](https://prismaservices.it) is an Italian company that offers custom IT solutions and technology consulting. Their motto is "Connecting Innovation and Talent". PRISMA S.R.L. provides tailor-made IT solutions in various domains such as Mobile Apps, Websites and Applications, Business Software, Cloud Solutions, Online Stores, and Technology Consulting.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Objective
 
-## Deploy on Vercel
+TransLLAMA is a research project exploring innovative approaches to translation using local large language models. The objective is to deliver precise, contextually accurate translations by harnessing the power of advanced AI. This project is solely for research purposes and does not represent a commercial product.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation and Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Prisma-Innovation/TransLLAMA.git
+   cd TransLLAMA
