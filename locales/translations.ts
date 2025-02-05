@@ -20,6 +20,9 @@ const translations = {
       projectObjectiveTitle: "Project Objective",
       projectObjectiveBody:
         "TransLLAMA is a research project that leverages large language models to explore innovative approaches in translation. The goal is to provide precise and contextually accurate translations by harnessing the power of AI. Developed by PRISMA S.R.L., TransLLAMA is a research initiative and does not represent a commercial product.",
+      developmentNotesTitle: "Development Notes",
+      developmentNotesBody:
+        "The entire project has been developed using the ChatGPT o3-mini-high model. No human developer has manually modified the code; only the prompts have been defined by human experts.",
       downloadPaperTitle: "Download Research Paper",
       downloadPaperDescription:
         "Click the button below to download the research paper summarizing the development of TransLLAMA.",
@@ -45,6 +48,9 @@ const translations = {
       projectObjectiveTitle: "Obiettivo del Progetto",
       projectObjectiveBody:
         "TransLLAMA è un progetto di ricerca che sfrutta i large language models per esplorare approcci innovativi alla traduzione. L’obiettivo è fornire traduzioni precise e contestualmente accurate, sfruttando la potenza dell’AI. Sviluppato da PRISMA S.R.L., TransLLAMA è un’iniziativa di ricerca e non rappresenta un prodotto commerciale.",
+      developmentNotesTitle: "Note di Sviluppo",
+      developmentNotesBody:
+        "L'intero progetto è stato sviluppato utilizzando il modello ChatGPT o3-mini-high. Nessun codice è stato modificato manualmente da sviluppatori; solo i prompt sono stati definiti da esperti umani.",
       downloadPaperTitle: "Scarica il Paper di Ricerca",
       downloadPaperDescription:
         "Clicca sul pulsante qui sotto per scaricare il paper che riassume lo sviluppo di TransLLAMA.",

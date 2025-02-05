@@ -41,6 +41,16 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Sezione Development Notes */}
+      <section className="w-full max-w-4xl">
+        <div className="p-6 bg-yellow-50 border rounded">
+          <h2 className="text-2xl font-semibold mb-2">{t("developmentNotesTitle")}</h2>
+          <p className="text-lg">
+            {t("developmentNotesBody")}
+          </p>
+        </div>
+      </section>
+
       {/* Sezione per Scaricare il Paper */}
       <section className="w-full max-w-4xl">
         <div className="p-6 bg-blue-50 border rounded flex flex-col items-center">
