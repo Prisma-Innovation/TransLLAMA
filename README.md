@@ -39,3 +39,9 @@ TransLLAMA is a research project exploring innovative approaches to translation 
    ```bash
    git clone https://github.com/Prisma-Innovation/TransLLAMA.git
    cd TransLLAMA
+   ```
+
+Before running the project, ensure that Ollama is installed on your system. Then, pull the development model by running:
+```bash
+ollama pull deepseek-r1:8b
+```
