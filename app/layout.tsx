@@ -5,7 +5,7 @@ import { LanguageProvider } from "../contexts/LanguageContext";
 import ClientHeader from "../components/ClientHeader";
 
 export const metadata = {
-  title: "Ollama Translator",
+  title: "TransLLAMA",
   description: "Multi-language translator using local LLMs via Ollama",
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <ClientHeader />
           <main className="container mx-auto px-4 py-8">{children}</main>
           <footer className="text-center py-4 text-sm text-gray-600">
-            Progetto open source – Licenza MIT
+            Open Source Project - <a href="https://www.prismaservices.it">Prisma Services</a> - 2025 - MIT License
           </footer>
         </LanguageProvider>
       </body>

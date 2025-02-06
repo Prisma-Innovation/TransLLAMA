@@ -41,6 +41,7 @@ export default function HomePage() {
         </div>
       </section>
 
+
       {/* Sezione Development Notes */}
       <section className="w-full max-w-4xl">
         <div className="p-6 bg-yellow-50 border rounded">
